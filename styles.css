@@ -1,0 +1,292 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color:rgb(171, 62, 72);
+    padding: 8px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.nav {
+    
+    padding: 20px;
+    padding-left: 16px;
+    padding-right: 10px;
+    background-color: rgb(171, 62, 72);
+    
+
+}
+
+.name {
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+select {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    
+}
+
+
+.items, .items2, .items3, .items4 {
+    margin-top: 50px;
+}
+
+.calories {
+    margin-bottom: 00px;
+}
+
+.nav a {
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+.top-container{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom:20px;
+    text-align: left;
+    
+}
+
+.middle-container{
+    padding: 20px;
+}
+
+.date {
+    display: flex;
+}
+
+.db-container {
+    display: flex;
+    margin-left: 20px;
+}
+
+.date p {
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(113, 25, 34);
+}
+
+.db-container button {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(171, 62, 72);
+    border: none;
+
+}
+
+.date-box {
+    margin: 10px;
+}
+
+.db {
+    padding: 10px;
+    background-color: rgb(171, 62, 72);
+    color: white;
+    border-radius: 2px; 
+    
+}
+
+.line-break {
+    border-bottom: 3px solid lightgray;
+    margin-top: 20px;
+}
+
+
+
+.meal {
+    padding: 40px;
+    padding-left: 0;
+    color:rgb(104, 9, 19);
+}
+
+.meal h3 {
+    margin-bottom: 20px;
+   
+}
+
+.meal button {
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+    color:#722a31;
+    
+}
+
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+ul {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.remove-btn {
+    margin-top: 20px;
+    
+}
+
+
+.removebtn1, .removebtn2, .removebtn3, .removebtn4, .removebtn5 {
+    padding: 8px;
+    background-color: rgb(171, 62, 72);
+    color: white;
+    border-radius: 2px;;
+}
+
+button:hover {
+    color:rgb(36, 14, 16);
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+a:hover {
+    color:rgb(36, 14, 16);
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.removebtn:hover {
+    background-color:rgb(172, 27, 41);
+    padding: 9px;
+    transition-duration: .2s;
+    
+
+}
+
+.bc {
+    margin-top: 100px;
+}
+
+.bottom-container {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    color: rgb(104, 9, 19);
+   
+}
+
+.bwaAverager {
+    text-align: center;
+}
+
+.bwaTitle {
+    font-size: 26px;
+    text-align: center;
+}
+.input-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dayContainer {
+    margin-top: 20px;
+}
+
+.day {
+    margin-top: 20px;
+}
+
+#total {
+    margin-top: 20px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+#averageWeight {
+    margin-top: 20px;
+    color: rgb(135, 30, 40);
+    font-size: 26px;
+}
+
+.day {
+    color: rgb(135, 30, 40);
+}
+
+#total {
+    background-color:rgb(171, 62, 72);
+    padding: 8px 10px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}
+
+button {
+    border-radius: 10px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 860px) {
+    .top-container{
+        padding-top: 20px;
+        padding-bottom:20px;
+        padding-right: 10rem;
+        padding-left: 10rem;
+        text-align: left;
+        
+    }
+
+    h1 {
+        color:rgb(171, 62, 72);
+        padding: 8px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .nav a {
+        margin-right: 15px;
+        font-size: 18px;
+        text-decoration: none;
+        color:white;
+        
+    }
+
+    .nav {
+    
+        padding: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgb(171, 62, 72);
+        padding-right: 200px;
+    
+    }
+    
+    .nav {
+        padding-left: 170px;
+    }
+
+    .middle-container{
+        padding-top: 50px;
+        padding-bottom:20px;
+        padding-right: 30rem;
+        padding-left: 10rem;
+    }
+  }
